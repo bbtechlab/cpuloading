@@ -10,7 +10,7 @@ Therefore, to make sure that you already took care of memory well you use cpuloa
 to check it
 
 # Clone repository
-
+```sh
 bamboo@BBTECHLAB:~$ git clone https://github.com/bbtechlab/cpuloading.git
 bamboo@BBTECHLAB:~/cpuloading$ tree -L 1 ./
 ./
@@ -18,14 +18,14 @@ bamboo@BBTECHLAB:~/cpuloading$ tree -L 1 ./
 ├── cpuloading.c
 ├── Makefile
 └── README.md
-
+```
 # How to compile
-
+```sh
 bamboo@BBTECHLAB:~$ cd ~/cpuloading
 bamboo@BBTECHLAB:~/cpuloading$ make
-
+```
 # How to test
-
+```sh
 bamboo@BBTECHLAB:~/cpuloading$ ./cpuloading 10
 
 ================================================
@@ -49,5 +49,5 @@ COUNT:   8      CPU LOADING:    1
 COUNT:   9      CPU LOADING:    1
 COUNT:  10      CPU LOADING:    0
 AVERAGE:0.700   MAX:1
-
+```
 
